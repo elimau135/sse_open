@@ -1,0 +1,22 @@
+sudo apt install build-essential curl file git
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+bash
+echo 'eval "$(/home/pi/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
+source ~/.bashrc
+
+zsh
+echo 'eval "$(/home/pi/.linuxbrew/bin/brew shellenv)"' >> ~/.zshrc
+source ~/.zshrc
+
+brew --version
+
+brew update
+
+sudo apt install python3-pip
+
+wolfsslcrypt
+
+pip3 install wolfssl
+
+brew install wolfssl
